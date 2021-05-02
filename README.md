@@ -13,16 +13,12 @@ tap` this repository to get the formulae. See [tap](https://docs.brew.sh/brew-ta
 Open a terminal and run the following `brew` command:
 
 ```sh
-$ brew tap basti0nz/tap
+$ brew install basti0nz/tap/tfselect
 ```
 
 This command will clone the repository to your computer and make the
 formulae availabe. You can then install each program with brew, e.g.
 
-```sh
-$ brew cask install tfselect
-```
-to install [Spectral](https://gitlab.com/basti0nz/tfselect).
 
 ## Feedback
 
@@ -30,14 +26,4 @@ Feel free to leave an issue in this repository related to brew issues with my
 formulae. For software related issues see the projects repository. To find a
 project repository run `brew info`, for example with `tfselect`
 
-```sh
-$ brew cask info tfselect
-tfselect: 0.1.491
-https://gitlab.com/basti0nz/tfselect
-Not installed
-From: https://github.com/basti0nz/homebrew-tap/blob/master/Casks/tfselect.rb
-==> Name
-TFSelect
-==> Artifacts
-tfselect
-```
+
