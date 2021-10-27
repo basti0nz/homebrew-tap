@@ -6,7 +6,6 @@ class Tfselect < Formula
   desc "The tfselect command lets you select terraform versions."
   homepage "https://basti0nz.github.io/tfselect"
   version "0.1.14"
-  bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/basti0nz/tfselect/releases/download/0.1.14/tfselect_0.1.14_darwin_amd64.tar.gz"
